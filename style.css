@@ -1,0 +1,117 @@
+body {
+  background-color: #c6c6c6;
+  font-family: "VT323";
+  -webkit-font-smoothing: none;
+  text-shadow: rgba(51, 51, 51, 0.35) 1px 1px 0.1px;
+}
+.inventory {
+  padding: 12px 8px 8px 12px;
+  background: #c6c6c6;
+  border-radius: 3px;
+  box-shadow: 5px 5px 0px #555555, inset 4px 4px 0px #fefefe;
+  display: inline-flex;
+  flex-direction: column;
+}
+.slots {
+  display: flex;
+  width: 32px; 
+  flex-wrap: wrap;
+}
+.mainSpace, .upper {
+  margin-bottom: 8px;
+}
+.fullWidth {
+  width: 288px;
+}
+.slot {
+  width: 32px;
+  height: 32px;
+  background: #8b8b8b;
+  box-shadow: inset 1.5px 1.5px 0px rgba(55, 55, 55, 0.8), inset -2px -2px 0px #ffffff;
+}
+.slot:hover {
+  background-color: #c5c5c5;
+  cursor: pointer;
+}
+.preview {
+  display: inline-block;
+  width: 96px;
+  height: 128px;
+  box-shadow: inset 1.5px 1.5px 0px rgba(55, 55, 55, 0.8), inset -2px -2px 0px #ffffff;
+  background-color: black;
+}
+.upper, .character, .crafting, .content {
+  display: flex;
+}
+.offhand {
+  flex-direction: column;
+  justify-content: flex-end;
+}
+.armor {
+  flex-direction: column;
+}
+h1 {
+  display: inline-block;
+  margin: 0;
+  margin-bottom: 8px;
+  font-size: 20px;
+  line-height: 0.5;
+  color: #414141;
+  font-weight: 500;
+  letter-spacing: -0.5px;
+}
+.craftingThings {
+  display: flex;
+}
+.crafting {
+  flex-direction: column;
+}
+.craftingGrid {
+  width: 64px;
+}
+.result {
+  margin-top: 16px;
+  margin-left: 32px;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  transform: scale(0.85);
+  user-select: none;
+}
+.magnifying-glass {
+  width: 24px;
+  height: 24px;
+  margin: 8px 0px 0px 5px;
+}
+.bookMenu {
+  margin-right: 8px;
+}
+.bookInside {
+  display: flex;
+  width: 220px;
+  height: 272px;
+  box-shadow: inset 1.5px 1.5px 0px rgba(22, 22, 22, 0.8), inset -2px -2px 0px #ffffff;
+  background-color: #393939;
+}
+input {
+  height: 24px;
+  margin: 4px;
+  background: none;
+  font-family: "VT323";
+  color: white;
+  border: none;
+  font-size: 24px;
+  width: 128px;
+  letter-spacing: -0.5px;
+  text-shadow: rgba(209, 209, 209, 0.15) 1px 1px 0.1px;
+}
+.table {
+  width: 52px;
+  height: 32px;
+  transform: scale(0.7);
+}
+.table:hover {
+  filter:brightness(1.3);
+  cursor: pointer;
+}
